@@ -31,7 +31,7 @@
       "id": 1,
       "name": "item1",
       "href": "#item1",
-      "children": [
+      "subset": [
         {
           "id": 11,
           "name": "item11",
@@ -53,12 +53,12 @@
       "id": 3,
       "name": "item3",
       "href": "#item3",
-      "children": [
+      "subset": [
         {
           "id": 31,
           "name": "item31",
           "href": "#item31",
-          "children": [
+          "subset": [
             {
               "id": 311,
               "name": "item311",
@@ -67,7 +67,19 @@
             {
               "id": 312,
               "name": "item312",
-              "href": "#item312"
+              "href": "#item312",
+              "subset": [
+                {
+                  "id": 3121,
+                  "name": "item3121",
+                  "href": "#item3121"
+                },
+                {
+                  "id": 3122,
+                  "name": "item3122",
+                  "href": "#item3122"
+                }
+              ]
             }
           ]
         }
