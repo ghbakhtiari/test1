@@ -1,7 +1,87 @@
-[
-  {"name":"item1", "href":"#item1"},
-  {"name":"item2", "href":"#item2"},
-  {"name":"item3", "href":"#item3"},
-  {"name":"item4", "href":"#item4"},
-  {"name":"item5", "href":"#item5"}
-]
+{
+  "flat": [
+    {
+      "id": 1,
+      "name": "item1",
+      "href": "#item1"
+    },
+    {
+      "id": 2,
+      "name": "item2",
+      "href": "#item2"
+    },
+    {
+      "id": 3,
+      "name": "item3",
+      "href": "#item3"
+    },
+    {
+      "id": 4,
+      "name": "item4",
+      "href": "#item4"
+    },
+    {
+      "id": 5,
+      "name": "item5",
+      "href": "#item5"
+    }
+  ],
+  "nested": [
+    {
+      "id": 1,
+      "name": "item1",
+      "href": "#item1",
+      "children": [
+        {
+          "id": 11,
+          "name": "item11",
+          "href": "#item11"
+        },
+        {
+          "id": 12,
+          "name": "item12",
+          "href": "#item12"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "item2",
+      "href": "#item2"
+    },
+    {
+      "id": 3,
+      "name": "item3",
+      "href": "#item3",
+      "children": [
+        {
+          "id": 31,
+          "name": "item31",
+          "href": "#item31",
+          "children": [
+            {
+              "id": 311,
+              "name": "item311",
+              "href": "#item311"
+            },
+            {
+              "id": 312,
+              "name": "item312",
+              "href": "#item312"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "item4",
+      "href": "#item4"
+    },
+    {
+      "id": 5,
+      "name": "item5",
+      "href": "#item5"
+    }
+  ]
+}
